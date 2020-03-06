@@ -1,0 +1,55 @@
+
+/*全局设置*/
+form,fieldset,textarea,p,th {padding:0px; margin:0px;}   
+img{border:0;} 
+address,caption,cite,code,dfn,em,th,var{ font-weight: normal; font-style: normal;}   
+ul,li,dl,dt {list-style:none; padding:0px; margin:0px;}   
+caption,th{text-align: left;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}   
+q:before, q:after {content:'';}
+body{ font-size:12px; background:url(../images/bg_body.jpg) repeat-x 0 0; margin:0px; padding:0px; color:#7f7f7f; }
+a{ color:#8b8b8b; text-decoration:none; }
+a:hover,a:active{ color:#f00; text-decoration:none; }
+p{color:#7f7f7f;}
+.clear{clear:both;}
+*{margin:0; padding:0;}
+img{ border:none; }
+
+.contain{ width:978px; height:auto; display:table; margin:10px auto 0 auto; }
+.contain h1{ height:33px; line-height:33px; background:url(../images/img_bg.png) repeat-x 0 -130px; font-size:14px; font-family:Arial, Helvetica, sans-serif; padding-left:10px; }
+.contain h1 span{ float:right; padding-right:10px; padding-left:20px; background:url(../images/img_bg.png) no-repeat -162px -326px; }
+.contain h1 span a{ color:#00a317; font-size:12px; }
+.contain h1 span a:hover{ color:red; }
+
+/*头部样式*/
+.header{ width:978px; height:130px; background:url(../images/bg_header.png) no-repeat 0 0; margin:0 auto; }
+.header_top{ width:978px; height:34px; }
+.header_top ul{ width:208px; float:right; }
+.header_top ul li{ float:left; }
+.header_top ul li a{ line-height:34px; }
+.header_top ul li span{ padding:0 12px; }
+.logo{ width:234px; height:97px; clear:both; float:left; }
+.header_contain{ width:744px; height:80px; padding-top:17px; float:left; }
+.nav{ width:744px; height:35px; }
+.nav_l{ width:4px; height:35px; background:url(../images/img_bg.png) no-repeat -244px -320px; float:left; }
+.nav_m{ width:652px; height:35px; background:#4db8fe; float:left; }
+.nav_m ul li{ width:93px; line-height:35px; float:left; text-align:center; }
+.nav a{ font-size:14px; font-weight:bold; color:#fff; line-height:35px; }
+.nav a:hover{ text-decoration:underline; color:#fff; }
+.nav_r{ width:4px; height:35px; background:url(../images/img_bg.png) no-repeat -250px -320px; float:left; }
+.nav .last{ width:80px; height:35px; background:url(../images/img_bg.png) no-repeat 0 -320px; float:right; text-align:center; }
+.nav .last a{ font-weight:normal; }
+.notice{ height:45px; OVERFLOW: hidden; background:url(../images/img_bg.png) no-repeat -294px -313px; }
+.notice .ta_tc{ HEIGHT:45px; OVERFLOW: hidden; padding-left:30px; }
+.notice .ta_tc a{ font-weight:normal; font-size:12px; color:#ff9029; }
+.phone{ float:right; padding-left:140px; height:45px; line-height:45px; background:url(../images/img_bg.png) no-repeat -180px -362px; font-family:microsoft yahei; font-size:14px; font-weight:bold; color:#7dcbfc; }
+
+/*页脚样式*/
+.footer{ width:978px; height:116px; margin:0 auto; background:url(../images/bg_footer.jpg) no-repeat 20px 74px; border-top:1px solid #c8c8c8; }
+.footer .footer_a{ width:978px; height:116px; background:url(../images/bg_footer.jpg) no-repeat 620px -42px; }
+.footer_a .logo_a{ padding-top:16px; height:100px; width:190px; float:left; }
+.footer_a .footer_r{ padding-top:16px; height:100px; float:left; }
+.footer_r p{ line-height:200%; text-indent:8px; font-family:Arial, Helvetica, sans-serif; color:#9f9f9f; }
+.footer_r p.black{ color:#000; text-indent:0; }
+.footer_r p.black a{ color:#000; padding:0 8px 0 8px; }
+.footer_r p.black a:hover{ color:red; }

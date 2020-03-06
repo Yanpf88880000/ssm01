@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{ width:978px; height:126px; margin:0 auto; }
+
+.where{ width:978px; height:30px; margin:0 auto; background:#eaeaea url(../images/img_bg.png) no-repeat -282px -490px; }
+.where p{ text-indent:35px; height:30px; line-height:30px; }
+
+.contain{ border:1px solid #d9d9d9; height:auto; display:table; padding-bottom:90px; margin:10px auto 45px auto; }
+.contain h1{ font-weight:bold; color:#575757; }
+.contain .main{ width:900px; margin:0 auto; padding-top:40px; height:auto; display:table; position:relative; }
+.contain .main .certification{ position:absolute; margin-left:160px; margin-top:-20px; z-index:9999; *left:0; *-left:0; }
+
+.main .photo{ width:230px; height:260px; border:1px solid #c7c7c7; background:#f2f2f2; float:left; }
+.main .photo_a{ width:210px; height:210px; margin:10px auto 0 auto; background:url(../images/img_bg.png) no-repeat -97px -522px; }
+.main .photo_a img{ width:210px; height:210px; }
+.main .photo p{ font-size:14px; text-align:center; margin:10px 0 0 0; }
+.main .detail{ width:594px; float:left; padding-left:36px; }
+.main .detail p{ line-height:30px; }
+.main .detail p.name{ font-family:microsoft yahei; font-size:24px; color:#000; padding-bottom:10px; }
+.main .detail p.left{ width:60px; float:left; height:30px; }
+.main .detail_a .detail_r{ width:534px; float:left; }
+
+.contain .video{ width:900px; height:auto; display:table; padding-top:60px; margin:0 auto; }
+.contain .video h2{ height:46px; line-height:46px; border-bottom:1px solid #e0e0e0; font-size:14px; font-weight:bold; color:#575757; margin:0 0 30px 0; }
+.contain .video dl{ width:150px; height:auto; display:table; float:left; }
+.contain .video dl dt{width:139px; height:107px; padding-bottom:12px; }
+.contain .video dl dt a{ width:137px; height:105px; border:1px solid #c7c7c7; display:block; }
+.contain .video dl dt a:hover{ border:2px solid #4ab41e; _border:1px solid #4ab41e; }
+.contain .video dl dt a:hover img{ width:135px; height:103px; }
+.contain .video dl dd{ padding-bottom:12px; color:#c6c6c6; }
+.contain .video dl dd a{ color:#4eb8ff; }
+.contain .video dl dd a:hover{ color:red; }
+
+.contain .data{ width:900px; height:auto; display:table; padding-top:30px; margin:0 auto; }
+.contain .data h2{ height:46px; line-height:46px; border-bottom:1px solid #e0e0e0; font-size:14px; font-weight:bold; color:#575757; margin:0 0 20px 0; }
+.contain .data ul{ width:900px; height:auto; display:table; }
+.contain .data ul li{ width:450px; height:25px; line-height:25px; float:left; }
